@@ -1,7 +1,7 @@
 # Menggunakan image Node.js versi terbaru sebagai base image
 FROM node:latest
 
-#adsds
+
 # Menjalankan perintah apt untuk menginstal paket-paket yang dibutuhkan
 RUN apt update && apt install -y \
     gconf-service libgbm-dev libasound2 libatk1.0-0 libc6 libcairo2 libcups2 \
@@ -23,8 +23,8 @@ RUN npm install
 # Salin kode aplikasi ke direktori kerja
 COPY . .
 
-# Expose port 4003 untuk aplikasi
-EXPOSE 4003
+# Expose port 3033 untuk aplikasi
+EXPOSE 3033
 
 # Menjalankan aplikasi saat container dijalankan
 CMD ["npm", "start"]

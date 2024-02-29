@@ -1,7 +1,7 @@
 {
-  "name": "whatsapp-bot",
+  "name": "api-education-whatsapp-lp3i",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ini server informasi whatsapp Education LP3I.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
